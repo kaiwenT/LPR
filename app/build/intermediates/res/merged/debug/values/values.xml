@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Reset">选择图片</string>
+    <string name="app_name">车牌识别系统</string>
+    <string name="cutup">字符分割</string>
+    <string name="hello">中文车牌识别---请选择图片</string>
+    <string name="locate">车牌定位</string>
+    <string name="ocr">车牌识别</string>
+</resources>

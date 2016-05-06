@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_weight="2">
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Reset" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+           <Button
+               android:id="@+id/button1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/locate"
+               android:layout_weight="1"/>
+
+           <Button
+               android:id="@+id/button2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/cutup"
+               android:layout_weight="1"/>
+
+           <Button
+               android:id="@+id/button4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/ocr"
+               android:layout_weight="1"/>
+
+       </LinearLayout>
+        
+
+
+   	<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+        	android:id="@+id/imageP1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" />
+        <LinearLayout 
+            android:layout_width="20dip"
+        	android:layout_height="20dip" />
+        <ImageView
+        	android:id="@+id/imageP2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" />
+        <LinearLayout 
+            android:layout_width="20dip"
+        	android:layout_height="20dip" />
+        <ImageView
+        	android:id="@+id/imageP3"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" />
+        <LinearLayout 
+            android:layout_width="20dip"
+        	android:layout_height="20dip" />
+        <ImageView
+        	android:id="@+id/imageP4"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" />
+        <LinearLayout 
+            android:layout_width="20dip"
+        	android:layout_height="20dip" />
+        <ImageView
+        	android:id="@+id/imageP5"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" />
+        <LinearLayout 
+            android:layout_width="20dip"
+        	android:layout_height="20dip" />
+        <ImageView
+        	android:id="@+id/imageP6"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" />
+        <LinearLayout 
+            android:layout_width="20dip"
+        	android:layout_height="20dip" />
+        <ImageView
+        	android:id="@+id/imageP7"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" />
+	</LinearLayout> 
+	
+   	<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+        	android:id="@+id/editP"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" />
+	</LinearLayout> 
+        
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
